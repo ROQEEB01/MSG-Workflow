@@ -1,10 +1,10 @@
 # MSG workflow
 
-**MSG workflow** is a reproducible bioinformatics workflow for repurposing long-read RNA sequencing data generated for arbovirus surveillance for mosquito population-genomic analysis.
+**MSG workflow** is a bioinformatics pipeline for repurposing long-read RNA sequencing data generated for arbovirus surveillance.
 
-The workflow was developed using pooled Oxford Nanopore direct-RNA sequencing from the *Culex pipiens/restuans* surveillance group as a case study. It combines long-read RNA preprocessing, splice-aware alignment, pooled allele-frequency estimation, SNP-level technical quality assessment, and population-genomic analyses.
+The workflow was designed for pooled Nanopore RNA sequencing reads. It combines long-read RNA preprocessing, splice-aware alignment, pooled allele-frequency estimation, SNP-level technical quality assessment, and population genomic analyses.
 
-> **Scope:** MSG is intended for exploratory population-genomic analysis of host-derived reads recovered from surveillance RNA-seq. RNA-derived allele frequencies can be influenced by transcript abundance, allele-specific expression, mapping bias, RNA editing, sequencing error, and unequal pool size. High-quality SNP filtering reduces identifiable technical risk but does not prove that every retained SNP is a genomic polymorphism.
+> **Scope:** MSG is intended for exploratory population genomic analysis of host-derived reads recovered from surveillance RNA-seq.
 
 ## Workflow
 
@@ -35,7 +35,7 @@ Raw ONT FASTQ
 07_population_genomics
 ```
 
-The core workflow uses all biological pools that pass the pool-level filters. Collection period is retained as metadata and used where required by the downstream analyses; the workflow does not subset the final analysis to a single collection period.
+
 
 ## Repository structure
 
