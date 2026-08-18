@@ -460,9 +460,6 @@ The RDA workflow performs PCA-derived background-structure estimation, forward s
 
 See [`docs/software_versions.md`](docs/software_versions.md).
 
-## Reproducibility notes
-
-See [`docs/provenance_checks.md`](docs/provenance_checks.md) for a small number of version/implementation details that should be verified against the final analysis environment before creating a tagged release.
 
 ## License
 
