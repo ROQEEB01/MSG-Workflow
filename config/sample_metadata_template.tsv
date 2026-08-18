@@ -1,0 +1,4 @@
+sample_id	run_id	barcode	pool_size	ploidy	site	batch	site_batch	bam_path
+Pool_001	run01	barcode01	14	2	S1	B1	S1-B1	/path/to/run01_barcode01_primary.bam
+Pool_001	run03	barcode17	14	2	S1	B1	S1-B1	/path/to/run03_barcode17_primary.bam
+Pool_002	run01	barcode02	7	2	S2	B2	S2-B2	/path/to/run01_barcode02_primary.bam

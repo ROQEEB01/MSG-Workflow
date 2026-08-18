@@ -1,0 +1,3 @@
+/path/to/MosquitoB2_run1_barcode01_primary.bam
+/path/to/MosquitoB2_run2_barcode01_primary.bam
+/path/to/MosquitoB2_run3_barcode01_primary.bam
